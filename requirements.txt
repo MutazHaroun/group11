@@ -1,0 +1,11 @@
+Flask==2.0.2
+Flask-SQLAlchemy==2.5.1
+
+
+curl -X POST http://localhost:8080/auth/signup -H "Content-Type: application/json" -d '{
+  "firstName": "mutaz",
+  "lastName": "haroun",
+  "email": "maxmoataz@gmail.com",
+  "password": "Mutaz123"
+}'
+
